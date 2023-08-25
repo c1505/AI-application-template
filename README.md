@@ -11,7 +11,8 @@
 # How to use
 - Get an open AI key.  set a low budget so you don't get surprised by the bill. You can always increase it.
 
-- Clone this repo
+- fork this repo
+- clone your fork
 - create a virtual environment
 - install the requirements using `pip install -r requirements.txt`
 - run the app using `streamlit run app.py`
