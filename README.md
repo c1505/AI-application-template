@@ -8,7 +8,7 @@
 - It is optimized to be quick and easy to start, deploy, and learn from.
 
 # How to use
-- Get an open AI key
+- Get an open AI key.  set a low budget so you don't get surprised by the bill. You can always increase it.
 
 - Clone this repo
 - create a virtual environment
@@ -16,13 +16,23 @@
 - run the app using `streamlit run app.py`
 
 
+# features
+- Estimates cost of API requests so you don't get surprised by the bill
+
 # Deployment
 Put your application on the web so you can easily access it
 
 # suggestions
 - Use chatgpt and or github copilot to help you write and troublelshoot your code
+- when your code gets to be long, consider some refactorings:
+    - extract methods
+    - separate display logic from business logic
+- Use gpt3.5-turbo when you can instead of gpt-4. It is much cheaper.
 
 # Resources
 ## Prompt engineering
+## Other APIs
+## Demo of this app
+## demo of some apps I have created that use streamlit
 
 # Going further(Wait until you actually need this)
