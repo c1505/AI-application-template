@@ -1,3 +1,4 @@
+# under construction
 # Purpose
 - Make it easy to create and deploy applications that use AI
 - It is more fun and rewarding to have something actually finished, deployed, and useable as a starting point that you can then build on top of.
@@ -15,9 +16,12 @@
 - install the requirements using `pip install -r requirements.txt`
 - run the app using `streamlit run app.py`
 
+## customizing the application
+- see RPG app for an example of how to customize the application
 
 # features
 - Estimates cost of API requests so you don't get surprised by the bill
+- Includes conversation history and allows you to change how much if any to use
 
 # Deployment
 Put your application on the web so you can easily access it
