@@ -1,0 +1,5 @@
+streamlit
+tiktoken
+python-dotenv
+openai
+# python 3.10 was used for this project
