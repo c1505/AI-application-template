@@ -12,6 +12,11 @@ def create_directories():
     # create prompts directory if it doesn't exist
     if not os.path.exists('prompts'):
         os.makedirs('prompts') 
+        # create a base_prompts file if it doesn't exist
+    path = "prompts/base_prompts"
+    if not os.path.exists(path):
+        with open(path, "w") as f:
+            f.write("You are an expert researcher")
     
 def num_tokens_from_string(string, model="gpt-3.5-turbo" ):
     """Returns the number of tokens in a text string."""
