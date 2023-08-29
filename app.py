@@ -120,7 +120,7 @@ def ask_question(question, model, prompt_background_question):
         else:
             st.write("Please enter a question.")
 
-def main():
+if __name__ == "__main__":
     load_dotenv()
     openai.api_key = os.getenv("OPENAI_API_KEY")
     create_directories()
@@ -179,6 +179,3 @@ def main():
     st.write("Cost to send message not including cost of the response: $", calculate_price(num_tokens_from_string(prompt_background_question, model=model), model=model))
 
     ask_question(question, model, prompt_background_question)
-
-
-main()
