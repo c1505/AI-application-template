@@ -17,6 +17,11 @@
 - install the requirements using `pip install -r requirements.txt`
 - run the app using `streamlit run app.py`
 
+## Using with codespaces (No local setup required. Code in your browser)
+- see https://github.com/features/codespaces for detailed instructions
+- Fork this repo
+- go to settings -> codespaces -> click set up prebuild
+
 ## customizing the application
 - see RPG app for an example of how to customize the application
 
