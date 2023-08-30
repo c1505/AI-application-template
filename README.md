@@ -21,6 +21,8 @@
 - see https://github.com/features/codespaces for detailed instructions
 - Fork this repo
 - go to settings -> codespaces -> click set up prebuild
+- in the repo, under code, click "start codespace"
+- to launch from command line run `python -m streamlit run app.py`
 
 ## customizing the application
 - see RPG app for an example of how to customize the application
